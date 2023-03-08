@@ -1,0 +1,278 @@
+html {
+ 	font-family: 'Zilla Slab', serif;
+	margin: 0;
+	padding: 0;
+}
+
+ .navigation {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid black;
+}
+
+.navlinks {
+display: flex;
+list-style: none;
+
+
+}
+
+.navitems {
+padding: 0rem 1rem;
+font-size: 1rem;
+//font-weight: 500;
+}
+
+.logolink {
+	padding: 0rem 0rem .5rem .5rem;
+}
+
+.landing-container {
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: url(resources/Landingpage-bkg.jpg);
+background-size: cover;
+background-position: center left;
+height: 37.5rem;
+
+
+}
+ .landing-text {
+	margin: 0 3.125rem;
+}
+
+.landing-container h1 {
+  color: white;
+	font-size: 3rem;
+  text-align: center;
+}
+
+.landing-container h2 {
+	font-weight: 300;
+	color: white;
+  text-align: center;
+}
+
+.what-container {
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+background-color: white;
+height: 37.5rem;
+overflow: hidden;
+margin: 1rem 0rem 1rem 0rem;
+//border-bottom: .5px solid grey;
+}
+
+.what-container img {
+	width: 50%;
+
+}
+
+.what-container h1 {
+	font-size: 3rem;
+}
+
+
+.what-content {
+	width: 30%;
+	height: auto;
+	color: #333333;
+	
+}
+
+.where-container {
+	background-color: #333333;
+	display: flex;
+	height: 30rem;
+	justify-content: flex-start;
+	align-items: center;
+	
+	box-sizing: border-box;
+}
+
+.where-content {
+	width: 30%;
+	text-align: right;
+	color: white;
+	padding-left: 1rem;
+	
+}
+
+.where-content h1 {
+	font-size: 3rem;
+}
+
+.where-images-container {
+	display: flex;
+	flex-direction: column;
+	margin-left: 1rem;
+	align-items: flex-start;
+	justify-content: space-around;
+	align-content: space-around;
+	width: 70%;
+	height: 30rem;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.where-images-container h2 {
+	font-size: 2.5rem;
+	color: white;
+	padding-left: 1rem;
+	padding-top: 3.25rem;
+}
+
+#adventure {
+	width: 100%;
+	height: 10rem;
+	background-image: url(resources/Adventure-2.jpg);
+	background-size: cover;
+	background-position: center center;
+	margin: 0 auto;
+}
+
+#escape {
+	height: 10rem;
+	width: 100%;
+	background-image: url(resources/Hiking.jpg);
+	background-size: cover;
+	background-position: center bottom;
+	margin: 0rem auto;
+}
+
+#pamper {
+	height: 10rem;
+	width: 100%;
+	background-image: url(resources/Beach.jpg);
+	background-size: cover;
+	background-position: right;
+	margin: 0rem auto;
+}
+
+.who-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	align-content: center;
+	height: 36rem;
+	//border: 1px solid red;
+}
+
+.who-images #who-crop {
+	height: 12.5rem;
+	width: 12.5rem;
+	object-fit: cover;
+	border-radius: 50%;
+	margin: 0 1rem;
+	
+}
+
+.who-content {
+	width: 30%;
+	text-align: left;
+	padding: 0 1rem;
+	color: #333333;
+	
+}
+
+.who-content h1 {
+	font-size: 3rem;
+}
+
+.who-images {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-evenly;
+	width: 60%;
+	height: 36rem;
+	
+}
+
+.when-container {
+	background-color: #333333;
+	//border: 1px solid red;
+	height: 30rem;
+	display: flex;
+	padding: 0 1rem;
+	align-items: center;
+	
+}
+
+.when-content {
+	width: 60%;
+	margin-right: 2rem;
+	align-self: center;
+}
+
+.when-content h1 {
+	color: white;
+	font-size: 3rem;
+	text-align: right;
+}
+
+.when-content h3{
+	color: white;
+	text-align: right;
+	font-weight: 400;
+	padding-left: 4.5rem;
+}
+
+.when-content h4{
+	color: white;
+	text-align: right;
+	font-weight: 400;
+}
+
+.form-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-evenly;
+	height: 30rem;
+	padding: 2rem 0;
+}
+
+.form-container label {
+	color: white;
+	font-size: 1.5rem;
+	
+}
+
+.form-container input[type="text"], input[type="date"], input[type="email"] {
+	width: 100%;
+	background-color: white;
+	border-style: none;
+	border-radius: 0;
+	height: 2rem;
+	
+}
+
+.form-container input[type="submit"] {
+	width: 50%;
+	align-self: center;
+	color: #333333;
+	background-color: white;
+	border-radius: 0;
+	}
+	
+	.foot-container {
+		box-sizing: border-box;
+		//border: 1px solid red;
+		width: 100%;
+		height: 2rem;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0 0.5rem;
+		
+	}
+	
+.foot-container h5 {
+	font-weight: 300;
+}
+
