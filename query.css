@@ -80,7 +80,7 @@
 }
 
 .when-container {
-	height: 25rem;
+	height: 24rem;
 }
 
 .when-content {
@@ -90,12 +90,12 @@
 .when-content h1 {
 	color: white;
 	font-size: 2rem;
-	text-align: center;
+	
 }
 
 .when-content h3 {
 	font-size: 1rem;
-	text-align: center;
+	
 }
 
 .form-container {
